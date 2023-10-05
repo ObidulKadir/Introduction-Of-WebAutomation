@@ -11,6 +11,8 @@ public class firstAutomation extends BaseDriver{
 		public void OpenUrl() throws InterruptedException {
 			driver.manage().window().maximize();
 			driver.get(url);
+			
+			driver.findElement(By.xpath("//span[contains(text(),'Support')]")).click();			
 			Thread.sleep(5000);
 			
 		}
