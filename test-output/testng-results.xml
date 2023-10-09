@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T09:14:04Z" name="Default suite" finished-at="2023-10-08T09:14:17Z" duration-ms="12872">
+  <suite started-at="2023-10-09T16:42:18Z" name="Default suite" finished-at="2023-10-09T16:42:41Z" duration-ms="23346">
     <groups>
     </groups>
-    <test started-at="2023-10-08T09:14:04Z" name="Default test" finished-at="2023-10-08T09:14:17Z" duration-ms="12872">
+    <test started-at="2023-10-09T16:42:18Z" name="Default test" finished-at="2023-10-09T16:42:41Z" duration-ms="23346">
       <class name="Web.Automation.Locator">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-08T15:14:03Z" name="StartBrowser" finished-at="2023-10-08T15:14:04Z" duration-ms="1588" status="PASS">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-09T22:42:16Z" name="StartBrowser" finished-at="2023-10-09T22:42:18Z" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method signature="StartUrl()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-08T15:14:04Z" name="StartUrl" finished-at="2023-10-08T15:14:17Z" duration-ms="12861" status="PASS">
+        <test-method signature="StartUrl()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-09T22:42:18Z" name="StartUrl" finished-at="2023-10-09T22:42:41Z" duration-ms="23337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartUrl -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-08T15:14:17Z" name="closeBrowser" finished-at="2023-10-08T15:14:17Z" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.Locator@2f67b837]" started-at="2023-10-09T22:42:41Z" name="closeBrowser" finished-at="2023-10-09T22:42:41Z" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
