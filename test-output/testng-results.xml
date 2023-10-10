@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-10T10:14:02Z" name="Default suite" finished-at="2023-10-10T10:14:21Z" duration-ms="19231">
+  <suite started-at="2023-10-10T14:21:09Z" name="Default suite" finished-at="2023-10-10T14:21:34Z" duration-ms="24772">
     <groups>
     </groups>
-    <test started-at="2023-10-10T10:14:02Z" name="Default test" finished-at="2023-10-10T10:14:21Z" duration-ms="19231">
-      <class name="Web.Automation.CssSelectorLocator">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.CssSelectorLocator@2f67b837]" started-at="2023-10-10T16:14:00Z" name="StartBrowser" finished-at="2023-10-10T16:14:02Z" duration-ms="1831" status="PASS">
+    <test started-at="2023-10-10T14:21:09Z" name="Default test" finished-at="2023-10-10T14:21:34Z" duration-ms="24772">
+      <class name="Web.Automation.LinkText">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.LinkText@2f67b837]" started-at="2023-10-10T20:21:08Z" name="StartBrowser" finished-at="2023-10-10T20:21:09Z" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method signature="StartUrl()[pri:0, instance:Web.Automation.CssSelectorLocator@2f67b837]" started-at="2023-10-10T16:14:02Z" name="StartUrl" finished-at="2023-10-10T16:14:21Z" duration-ms="19223" status="PASS">
+        <test-method signature="ExceuteUrl()[pri:0, instance:Web.Automation.LinkText@2f67b837]" started-at="2023-10-10T20:21:09Z" name="ExceuteUrl" finished-at="2023-10-10T20:21:34Z" duration-ms="24763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StartUrl -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.CssSelectorLocator@2f67b837]" started-at="2023-10-10T16:14:21Z" name="closeBrowser" finished-at="2023-10-10T16:14:22Z" duration-ms="322" status="PASS">
+        </test-method> <!-- ExceuteUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.LinkText@2f67b837]" started-at="2023-10-10T20:21:34Z" name="closeBrowser" finished-at="2023-10-10T20:21:34Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Web.Automation.CssSelectorLocator -->
+      </class> <!-- Web.Automation.LinkText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

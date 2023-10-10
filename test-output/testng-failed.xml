@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.CssSelectorLocator">
+      <class name="Web.Automation.LinkText">
         <methods>
-          <include name="StartUrl"/>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
+          <include name="ExceuteUrl"/>
         </methods>
-      </class> <!-- Web.Automation.CssSelectorLocator -->
+      </class> <!-- Web.Automation.LinkText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
