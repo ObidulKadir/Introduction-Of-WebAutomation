@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.LinkText">
+      <class name="Web.Automation.xpathBasic">
         <methods>
+          <include name="StartUrl"/>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
-          <include name="ExceuteUrl"/>
         </methods>
-      </class> <!-- Web.Automation.LinkText -->
+      </class> <!-- Web.Automation.xpathBasic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
