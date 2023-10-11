@@ -18,8 +18,12 @@ public class xpathBasic extends BaseDriver{
 		 * Relational Xpath
 		 * 1. //*[@attribute ='value']
 		 * 2. //tagName[@attribute='value']
+		 * 
+		 *  for string related data:
+		 *  
 		 * 3. //tagname[contains(text(),"string"]
 		 * 4. //tagname[starts-with(text(),"string"]
+		 *  For table:(5,6)
 		 * 5. // * [ position() = 3]
 		 * 6. // * [ last()]
 		 * 7. // *[ normalize-space ( text() ) = 'Option1' ]
