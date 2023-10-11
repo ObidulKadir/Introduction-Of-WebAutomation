@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 		
 		driver.navigate().forward();
 		
+		note: forward() command will be exceuted Once after loading the page you backward.
+		
 		driver.navigate().to(url);
  */
 public class NavigationCommands extends BaseDriver {
