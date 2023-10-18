@@ -19,7 +19,7 @@ import org.testng.asserts.SoftAssert;
  * Syntax: Assert.assertEquals(actual, expected);
  * 
  * 2. Soft Assertions.
- *  - its exceute all method either it is passed or failed.
+ *  - its exceute all method including their elements either it is pass or fail.
  *  - if soft assertions has been failed it will exceute next elements in the same method.
  *  - if failed, it will also exceute next method also once the exceuting done elements of method where the soft element introduce.
  *  - To see error in console use assertAll() method.
