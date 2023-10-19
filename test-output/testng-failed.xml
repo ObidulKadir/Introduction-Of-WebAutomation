@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.WaitExamples">
+      <class name="Web.Automation.VisibilityExamples">
         <methods>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
           <include name="ExceuteUrl"/>
         </methods>
-      </class> <!-- Web.Automation.WaitExamples -->
+      </class> <!-- Web.Automation.VisibilityExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
