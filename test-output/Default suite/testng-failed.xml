@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.VisibilityExamples">
+      <class name="Web.Automation.hoverSystemRokomari">
         <methods>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
-          <include name="ExceuteUrl"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- Web.Automation.VisibilityExamples -->
+      </class> <!-- Web.Automation.hoverSystemRokomari -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
