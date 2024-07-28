@@ -49,4 +49,22 @@ public class PageScrollerDownUP extends BaseDriver{
 		js.executeScript("arguments[0].scrollIntoView(true)",location);
 		Thread.sleep(3000);
 	}
+	
+	public void scrollDown() throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0, document.body.scrollheight)");
+		Thread.sleep(3000);
+	}
+	
+	public void scrollTop() throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollTo(0,0");
+		Thread.sleep(3000);
+	}
+	
+	public void scrollToSpecific(WebElement elementLocation) throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true)", elementLocation);
+		Thread.sleep(3000);
+	}
 }

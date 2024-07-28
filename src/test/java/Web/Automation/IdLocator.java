@@ -17,7 +17,7 @@ public class IdLocator extends BaseDriver{
 		
 		/*
 		 * Id Selector
-		 * Ex: element = driver.find_element_by_id("yourIDName")
+		 * Ex: element = driver.findElement(By.id("idName"))
 		 * 
 		 */
 		//ID

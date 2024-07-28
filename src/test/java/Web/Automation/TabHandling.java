@@ -11,7 +11,7 @@ public class TabHandling extends BaseDriver{
 	public void tabHandling() throws InterruptedException {
 		driver.manage().window().maximize();
 		driver.get(url1);
-		String orginalTab = driver.getWindowHandle();
+		String firstWindow = driver.getWindowHandle();
 		Thread.sleep(3000);
 		
 		driver.switchTo().newWindow(WindowType.TAB);
@@ -19,16 +19,25 @@ public class TabHandling extends BaseDriver{
 		driver.get(url2);
 		Thread.sleep(5000);
 		
-		driver.switchTo().window(orginalTab);
+		driver.switchTo().window(firstWindow);
 		driver.close();
 		Thread.sleep(5000);
 		
 		driver.switchTo().window(secondWindow);
 		Thread.sleep(5000);
 		
-		driver.switchTo().window(orginalTab);
+		driver.switchTo().window(firstWindow);
 		Thread.sleep(10000);
 		
+		
+		
 		}
+	
+	public void clickTAB() {
+		driver.switchTo().newWindow(WindowType.TAB);
+	}
+	
+	
+	
 }
 

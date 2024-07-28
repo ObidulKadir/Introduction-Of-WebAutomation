@@ -50,4 +50,10 @@ String url = "https://demoqa.com/frames";
 		
 		
 }
+	public void moveToIframeContent(WebElement element) {
+		driver.switchTo().frame(element);
+	}
+	public void moveToDefaultContent() {
+		driver.switchTo().defaultContent();
+	}
 }

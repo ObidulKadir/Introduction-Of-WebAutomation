@@ -13,8 +13,7 @@ public class Alert extends BaseDriver{
 	 * alert.dismiss()
 	 * alert.sendkeys()
 	 */
-			
-	
+		
 	String url = "https://demoqa.com/alerts";
 	@Test
 	public void ExceuteUrl() throws InterruptedException {

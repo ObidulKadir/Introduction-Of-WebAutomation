@@ -8,6 +8,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 
 public class BaseDriver {
 	
@@ -31,6 +32,8 @@ public class BaseDriver {
 			driver = new EdgeDriver();
 		}
 	}
+	
+	
 	
 	@AfterSuite
 	public void closeBrowser() {

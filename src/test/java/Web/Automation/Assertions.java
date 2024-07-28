@@ -53,7 +53,6 @@ String url = "https://www.daraz.com.bd/";
 //		System.out.println("Pass");
 //		soft.assertAll();
 		
-		
 }
 	@Test
 	public void test2() {

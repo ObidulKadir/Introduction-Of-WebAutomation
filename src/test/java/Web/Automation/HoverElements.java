@@ -1,6 +1,7 @@
 package Web.Automation;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
@@ -38,4 +39,13 @@ public class HoverElements extends BaseDriver {
 		HoverElement3.click();
 		Thread.sleep(2000);
 }
+	
+	public void hoverElements(WebElement actionElement) throws InterruptedException {
+		Actions action = new Actions(driver);
+		
+		action.moveToElement(actionElement).perform();
+		
+		Thread.sleep(3000);
+		
+	}
 }
