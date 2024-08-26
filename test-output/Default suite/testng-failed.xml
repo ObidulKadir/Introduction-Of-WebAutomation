@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.FileUpload">
+      <class name="Web.Automation.Synchronization">
         <methods>
-          <include name="excuteUrl"/>
+          <include name="executeUrl"/>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Web.Automation.FileUpload -->
+      </class> <!-- Web.Automation.Synchronization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
