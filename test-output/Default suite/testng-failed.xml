@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Web.Automation.Synchronization">
+      <class name="Web.Automation.FluentWait">
         <methods>
-          <include name="executeUrl"/>
           <include name="StartBrowser"/>
           <include name="closeBrowser"/>
+          <include name="executeUrl"/>
         </methods>
-      </class> <!-- Web.Automation.Synchronization -->
+      </class> <!-- Web.Automation.FluentWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

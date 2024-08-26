@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-26T07:00:07Z" name="Default suite" finished-at="2024-08-26T07:00:15Z" duration-ms="8221">
+  <suite started-at="2024-08-26T07:56:40Z" name="Default suite" finished-at="2024-08-26T07:56:50Z" duration-ms="9463">
     <groups>
     </groups>
-    <test started-at="2024-08-26T07:00:07Z" name="Default test" finished-at="2024-08-26T07:00:15Z" duration-ms="8221">
-      <class name="Web.Automation.Synchronization">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.Synchronization@146dfe6]" started-at="2024-08-26T13:00:04Z" name="StartBrowser" finished-at="2024-08-26T13:00:07Z" duration-ms="3067" status="PASS">
+    <test started-at="2024-08-26T07:56:40Z" name="Default test" finished-at="2024-08-26T07:56:50Z" duration-ms="9463">
+      <class name="Web.Automation.FluentWait">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Web.Automation.FluentWait@2f67b837]" started-at="2024-08-26T13:56:37Z" name="StartBrowser" finished-at="2024-08-26T13:56:40Z" duration-ms="3284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method signature="executeUrl()[pri:0, instance:Web.Automation.Synchronization@146dfe6]" started-at="2024-08-26T13:00:07Z" name="executeUrl" finished-at="2024-08-26T13:00:15Z" duration-ms="8211" status="PASS">
+        <test-method signature="executeUrl()[pri:0, instance:Web.Automation.FluentWait@2f67b837]" started-at="2024-08-26T13:56:40Z" name="executeUrl" finished-at="2024-08-26T13:56:50Z" duration-ms="9450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeUrl -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.Synchronization@146dfe6]" started-at="2024-08-26T13:00:15Z" name="closeBrowser" finished-at="2024-08-26T13:00:15Z" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Web.Automation.FluentWait@2f67b837]" started-at="2024-08-26T13:56:50Z" name="closeBrowser" finished-at="2024-08-26T13:56:50Z" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Web.Automation.Synchronization -->
+      </class> <!-- Web.Automation.FluentWait -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

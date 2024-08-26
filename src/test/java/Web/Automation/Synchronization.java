@@ -15,6 +15,11 @@ import java.util.List;
 public class Synchronization extends BaseDriver {
 
 	String url = "https://rahulshettyacademy.com/loginpagePractise/";
+	
+	/*
+	 * ImplcitWait - This waits are globally called and every steps its wait but if the element is found before the given the timeout it will exceute the next line. For every line wait, there is hard to find the performance issue. 
+	 * ExplicitWait - This waits for specifc element. There is no chance to get theperformance issue cause the performance of the system is known.
+	 */
 
 	@Test
 	public void executeUrl() throws InterruptedException {
@@ -47,7 +52,7 @@ public class Synchronization extends BaseDriver {
 		wait.until(ExpectedConditions.elementToBeClickable(promptOkay));
 		promptOkay.click();
 
-		// Example of using implicit wait for another element
+	
 		WebElement tc = driver.findElement(By.xpath("//input[@id='terms']"));
 		WebElement submitBtn = driver.findElement(By.xpath("//input[@id='signInBtn']"));
 		tc.click();
